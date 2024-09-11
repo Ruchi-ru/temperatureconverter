@@ -11,7 +11,7 @@ form{
   margin: auto;
   padding: 25px;
 }
-#temperature{
+#temper{
   border-radius: 15px;
   border: none;
   font-size: 25px;
@@ -21,13 +21,16 @@ form{
 label{
   font-size: 1.5em;
 }
-#submitbtn{
+button{
   margin-top: 20px;
   background-color: rgb(49, 112, 158);
   padding: 3px;
   border-radius: 5px;
   cursor: pointer;
 }
-#submitbtn:hover{
+button:hover{
   background-color:  rgb(35, 71, 98);
+}
+#result{
+  font-size: 2em;;
 }
