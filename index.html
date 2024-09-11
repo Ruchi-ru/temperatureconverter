@@ -10,17 +10,18 @@
   <form>
   <label id="heading">Temperature</label><br>
 
-  <input type="number" id="temperature" value="0"><br>
+  <input type="number" id="temper" value="0"><br>
 
-  <input type="radio" id="tofahrenheit">
+  <input type="radio" id="tofahrenheit" name="unit">
   <label for="tofahrenheit">Celcius - Fahrenheit</label><br>
 
-  <input type="radio" id="tocelcius">
+  <input type="radio" id="tocelcius" name="unit">
   <label for="tocelcius">Fahrenheit - Celcius</label><br>
 
-  <button id="submitbtn">Submit</button>
+  <button type="button" onclick="calculate()">Submit</button>
 
-  <p id="result"></p>
+  <p id="result">Select a unit</p>
 </form>
+<script src="script.js"></script>
 </body>
 </html>
